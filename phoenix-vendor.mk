@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/phoenix
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/phoenix/proprietary/odm/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
-    vendor/xiaomi/phoenix/proprietary/odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Codec_cal.acdb \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
@@ -366,17 +364,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_misound_karaoke_res_bin \
     vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
     vendor_lib_rfsa_adsp_misound_res_bin \
-    libdapparamstorage_v3_6 \
-    libdeccfg_v3_6 \
-    libdlbdsservice_v3_6 \
-    libqtigef_odm \
-    libhwdap_v3_6 \
-    libswdap_v3_6 \
-    vendor.dolby_v3_6.hardware.dms360@2.0-impl \
-    vendor.dolby_v3_6.hardware.dms360@2.0 \
-    libstagefright_soft_ddpdec \
-    manifest_dax_dolby_v3_6.xml \
     mi_thermald \
     sensors.qti \
-    thermal-engine \
-    vendor.dolby_v3_6.hardware.dms360@2.0-service
+    thermal-engine
