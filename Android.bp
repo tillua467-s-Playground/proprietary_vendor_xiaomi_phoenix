@@ -5257,6 +5257,14 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+sh_binary {
+    name: "init.qti.chg_policy",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.qti.chg_policy.sh",
+    filename: "init.qti.chg_policy.sh",
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "mi_thermald",
     owner: "xiaomi",
